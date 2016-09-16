@@ -1,0 +1,370 @@
+﻿body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row{
+}
+
+.navbar{
+    height: 70px;
+    background-color: #000;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-header{
+    height: 70px;
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar .container-fluid .navbar-brand{
+    margin-left: 0;
+}
+
+.home{
+    height: 50px;
+}
+
+.basketNavigation{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.cover {
+    background-image: url('../img/cover_opti.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+}
+
+.coverText{
+    text-align:center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 250px;
+}
+
+.coverSearch{
+    width: 40%;
+    padding-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.category{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnCategory{
+    border-radius: 25px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #0094ff;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.btnCategory:hover{
+    background-color: #0094ff;
+    color: #fff;
+}
+
+.showAll{
+    padding-top: 25px;
+    height: 56px;
+}
+     
+.categoryHide{
+    max-height:390px;
+    overflow: hidden;
+}
+
+.eventContainer{
+    margin-left:0;
+    margin-right:0;
+}
+
+.eventCard{
+    height: 300px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.025),0 1px 1px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top:15px;
+}
+
+.eventCardDate {
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(255,255,255,0.98);
+    color: #1377fb;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.eventCardDay{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    margin-top: 5px;
+    overflow:hidden;
+    height: 40px;
+}
+
+.eventCardImg{
+    position:relative;
+    overflow: hidden;
+}
+
+.eventCardImg img{
+    position: relative;
+    text-align: center;
+    max-height: 150px;
+}
+
+.eventCardLink{
+    text-decoration: none;
+    color: #000;
+}
+
+.eventCardLink:hover{
+    text-decoration: none;
+}
+
+.eventCardHeader{
+    height: 150px;
+}
+
+.eventCardContent{
+    height: 90px;
+    margin-left: 15px;
+    color: #000;
+}
+
+.eventCardTitle{
+    width: 80%;
+    color: #1b1d1e;
+    font-weight: bold;
+    font-size: 14pt;
+    height: 55px;
+}
+
+.eventLocation{
+    color: #414344;
+}
+
+.eventCategory{
+    border-top: 1px solid #808080;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 5px;
+}
+
+.social{
+    margin-left:0;
+    margin-right:0;
+}
+
+.socialFriends{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:#f7f7f7;
+    box-shadow: 0 0 0 1px rgba(27,29,30,0.1) inset;
+}
+
+.socialFindFriends{
+    padding-top:30px;
+    padding-bottom:30px;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.socialFindFriends h2{
+    width: 80%;
+}
+
+.socialFindFriends h4{
+    width: 65%;
+    opacity: 0.5;
+}
+
+.socialFacebook{
+    height: 237px;
+    margin-top: 30px; 
+    box-shadow: 0 0 0 1px rgba(27,29,30,0.1) inset;
+    text-align: center;
+}
+
+.socialFacebookContent{
+    margin-top: 60px;
+}
+
+.continueFacebook{
+    background-color: #3b5998;
+    border: none;
+    color: #fff;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.socialRestriction{
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+footer{
+    border-top: 1px solid rgba(27,29,30,0.1);
+}
+
+.footerHeadline{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footerAdress{
+    border-top: 1px solid rgba(27,29,30,0.1);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.detailCover{
+    margin-top: -30px;
+}
+
+.detailCoverText{
+    position: absolute;
+    color: #fff;
+    margin-top: 720px;
+}
+
+.detailCoverImg{
+    width: 100%;
+}
+
+.detailHeader{
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-color: #f7f7f7;
+}
+
+.locationLine{
+    border-top: 1px solid #000;
+margin-top: 20px;
+padding-top: 20px;
+}
+
+.detailLogo{
+    height: 50px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.detailHeader btn-primary{
+    background-color: #fd8c24;
+    border:none;
+}
+
+.findTicket{
+    margin-top: -75px;
+    background-color: #fd8c24;
+    border: none;
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20pt;
+}
+
+.findTicket:hover{
+    background-color: #fd8c24;
+    border:none;
+}
+
+.findTicket:active{
+    background-color: #fd8c24;
+    border: none;
+}
+
+.detailSocialShare{
+    list-style: none;
+    margin-top: 30px;
+    text-align:  center;
+    -webkit-padding-start: 0px;  
+}
+
+.detailSocialIcons{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    box-shadow:0 0 0 2px rgba(19,119,251,0.2) inset;
+    text-align:center;
+    display: inline-block;
+    color: #55acee;
+}
+
+.detailSocialIcons .fa{
+    margin-top: 18px;
+    margin-bottom: auto;
+}
+
+.detailDescription{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.detailTicketInfo{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.detailPayment{
+    opacity: 0.5;
+}
+
+.paymentCover{
+    background-color: #f7f7f7;
+    margin-top: -30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media(min-width:1800px){
+    .containerCover{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
